@@ -473,3 +473,13 @@ header.sticky {
   }
 }
 
+@media (max-width: 600px) {
+  :root {
+    --h1-font: 3.5rem;
+    --h2-font: 2.1rem;
+  }
+  .home {
+    height: 85vh;
+  }
+}
+
