@@ -383,3 +383,41 @@ header.sticky {
   color: #979797;
   font-size: 15px;
 }
+
+@media (max-width: 1700px) {
+  header {
+    padding: 18px 8%;
+  }
+
+  header.sticky {
+    padding: 7px 8%;
+  }
+
+  section {
+    padding: 50px 8% 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header {
+    padding: 14px 5%;
+  }
+
+  header.sticky {
+    padding: 7px 5%;
+  }
+
+  section {
+    padding: 45px 8% 35px;
+  }
+  :root {
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+  }
+
+  .home {
+    height: 90vh;
+  }
+}
+
