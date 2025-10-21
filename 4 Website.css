@@ -71,6 +71,26 @@ body {
     line-height: 1.5;
 }
 
+.btn {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    padding: 0.375rem 0.75rem;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    font-weight: 400;
+    transition: var(--transition);
+    font-size: 0.875rem;
+    border: none;
+    cursor: pointer;
+    box-sizing: 0 1px 3px rgba( 0, 0, 0, 0.2);
+    border-radius: 30px;
+    
+}
+
+.btn:hover {
+    background-color: var(--clr-primary-light);
+}
+
 .nav-btn svg {
     width: 40px;
     height: 40px;
@@ -199,4 +219,25 @@ label svg {
     margin-bottom: 2rem;
     font-weight: 400;
     text-shadow: 2px 5px 5px var(--clr-primary);
+    animation: flame 1s linear infinite;
+}
+
+@keyframes flame {
+    0%,
+    100% {
+        text-shadow: 0 -5px 10px rgba(255, 69, 0, 0.6), 0 -5px 20px rgba(255, 69, 0, 0.4), 0 -5px 30px rgba(255, 69, 0, 0.2), 0 -5px 40px rgba(255, 69, 0, 0.1);
+    }
+    25% {
+        text-shadow: 0 -5px 15px rgba(255, 69, 0, 0.6), 0 -5px 30px rgba(255, 69, 0, 0.4), 0 -5px 45px rgba(255, 69, 0, 0.2), 0 -5px 60px rgba(255, 69, 0, 0.1);
+    }
+    50% {
+        text-shadow: 0 -5px 20px rgba(255, 69, 0, 0.6), 0 -5px 40px rgba(255, 69, 0, 0.4), 0 -5px 60px rgba(255, 69, 0, 0.2), 0 -5px 80px rgba(255, 69, 0, 0.1);
+    }
+    75% {
+        text-shadow: 0 -5px 15px rgba(255, 69, 0, 0.6), 0 -5px 30px rgba(255, 69, 0, 0.4), 0 -5px 45px rgba(255, 69, 0, 0.2), 0 -5px 60px rgba(255, 69, 0, 0.1);
+    }
+}
+
+.banner-btn {
+    font-size: 1rem;
 }
