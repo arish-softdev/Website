@@ -71,6 +71,11 @@ body {
     line-height: 1.5;
 }
 
+svg {
+    width: 40px;
+    height: 40px;
+}
+
 .btn {
     background-color: var(--clr-primary);
     color: var(--clr-white);
@@ -141,10 +146,7 @@ img {
     margin: 0 auto;
 }
 
-label svg {
-    width: 40px;
-    height: 40px;
-}
+
 
 .navbar-header {
     position: relative;
@@ -251,3 +253,4 @@ label svg {
     outline: 0.125rem solid var(--clr-primary);
     outline-offset: 0.25rem;
 }
+
