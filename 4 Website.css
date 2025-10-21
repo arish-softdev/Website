@@ -5,3 +5,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Inter", sans-serif;
+    --ff-primary: "Satisfy", cursive;
+    --ff-brand: "Margarine", sans-serif;
+}
