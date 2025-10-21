@@ -9,7 +9,7 @@
 :root {
     --ff-primary: "Roboto", sans-serif;
     --ff-secondary: "Inter", sans-serif;
-    --ff-primary: "Satisfy", cursive;
+    --ff-design: "Satisfy", cursive;
     --ff-brand: "Margarine", sans-serif;
 
     --clr-white: #fff;
@@ -21,3 +21,95 @@
     --clr-primary-light: #f04660;
     --clr-secondary: #e9b949;
 }
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    width: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 0.875rem;
+}
+
+p {
+    margin-bottom: 1.75rem;
+}
+
+body {
+    font-family: var(--ff-primary); 
+    font-size: 0.875rem;
+    background-color: var(--clr-white);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+}
+
+.nav-btn svg {
+    width: 40px;
+    height: 40px;
+    fill: var(--ff-primary);
+    position: fixed;
+    top: 5%;
+    left: 5%;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar h3 {
+    padding: 1rem;
+    color: transparent;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(180deg,var(--clr-primary) 25%,var(--clr-secondary));
+    background-clip: text;
+    margin-bottom: -1rem;
+}
+
+img {
+    width: 130px;
+    display: block;
+}
+
+.navbar .navbar-header img {
+    margin: 0 auto;
+}
+
+label svg {
+    width: 40px;
+    height: 40px;
+}
+
