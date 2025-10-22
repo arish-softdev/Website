@@ -94,6 +94,13 @@ svg {
   background-color: var(--clr-primary-light);
 }
 
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .nav-btn svg {
   width: 40px;
   height: 40px;
@@ -272,41 +279,64 @@ img {
   outline-offset: 0.25rem;
 }
 
+.content-divider {
+  height: 0.5rem;
+  background-image: linear-gradient(
+    to left,
+    var(--clr-primary),
+    var(--clr-secondary),
+    var(--clr-primary)
+  );
+}
+
 .features {
-    background-color: var(--clr-grey-3);
-    cursor: pointer;
+  background-color: var(--clr-grey-3);
+  cursor: pointer;
 }
 
 .feature {
-    padding: 2.5rem 0;
-    text-align: center;
-    transition: var(--transition);
+  padding: 2.5rem 0;
+  text-align: center;
+  transition: var(--transition);
 }
 
-.feature-icon svg{
-    transition: var(--transition);
+.feature-icon svg {
+  transition: var(--transition);
 }
 
 .feature-title {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .feature-text {
-    color: var(--clr-grey-2);
-    max-width: 17rem;
-    margin: 0 auto;
+  color: var(--clr-grey-2);
+  max-width: 17rem;
+  margin: 0 auto;
 }
 
 .feature:hover {
-    background-color: var(--clr-white);
-    box-shadow: 0 2px var(--clr-primary);
+  background-color: var(--clr-white);
+  box-shadow: 0 2px var(--clr-primary);
 }
 
 .feature:hover .feature-title {
-    color: var(--clr-primary);
+  color: var(--clr-primary);
 }
 
-.feature:hover .feature-icon svg{
-    fill: var(--clr-primary);
-    transform: translateY(-5px);
+.feature:hover .feature-icon svg {
+  fill: var(--clr-primary);
+  transform: translateY(-5px);
+}
+
+@media screen and (min-width: 576px) {
+  .feature {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature {
+    width: 25%;
+  }
 }
