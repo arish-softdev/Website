@@ -408,3 +408,9 @@ img {
   padding-left: 2rem;
 }
 }
+
+.product-img {
+  width: 480px;
+  height: auto;
+  transition: var(--transition);
+}
