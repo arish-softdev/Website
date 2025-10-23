@@ -575,8 +575,12 @@ svg {
 }
 
 .contact-form, 
-.contact-into {
+.contact-info {
   margin: 1rem 0;
+}
+
+.contact-info {
+  padding-left: 7rem;
 }
 
 .contact-title {
@@ -677,4 +681,34 @@ textarea.form-control {
     float: left;
     width: 50%;
   }
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.footer {
+  background-color: var(--clr-dark);
+  text-align: center;
+}
+
+.social-icon svg {
+  width: 32px;
+  height: 32px;
+  fill: var(--clr-white);
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+
+.social-icon:hover svg {
+  fill: var(--clr-primary);
+}
+
+.footer-text {
+  color: var(--clr-white);
+  margin-top: 1.25rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.company {
+  color: var(--clr-primary);
 }
