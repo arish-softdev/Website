@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ADVENTURE</title>
-    <link rel="stylesheet" href="./5 Website.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./5 Website.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <h1 class="logo">ADVENTURE</h1>
-        <ul class="nav-links">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Tours</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">About</a></li>
-            <li class="ctn"><a href="#">Contact</a></li>
-        </ul>
-        <img src="./img/menu-btn.png" alt="menu icon" class="menu-btn">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">About</a></li>
+        <li class="ctn"><a href="#">Contact</a></li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="menu icon" class="menu-btn" />
     </nav>
 
     <header>
-        <div class="header-content">
-            <h2>Explore The Colorful World</h2>
-            <div class="line"></div>
-            <h1>A WONDERFUL GIFT</h1>
-            <a href="#" class="ctn">Learn More</a>
-        </div>
+      <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
     </header>
 
     <script>
-        const menuBtn = document.querySelector('.menu-btn');
-        const navLinks = document.querySelector('.nav-links');
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
 
-        menuBtn.addEventListener('click', () => {
-            navLinks.classList.toggle('mobile-menu');
-        });
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
     </script>
-</body>
+  </body>
 </html>
