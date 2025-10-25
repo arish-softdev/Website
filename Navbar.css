@@ -62,6 +62,7 @@ ul {
 .btn {
   background-color: #1e272e;
   border-radius: 30px;
+  
   padding: 10px 25px;
   font-weight: 400;
   display: inline-block;
@@ -72,6 +73,7 @@ ul {
     color: #1e272e;
     background: #ecf0f1;
     transform: scale(1.1);
+    box-shadow: 2px 2px 5px #1e272e;
 }
 
 
