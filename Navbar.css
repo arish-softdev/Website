@@ -58,3 +58,35 @@ ul {
 .logo:hover {
   transform: scale(1.1);
 }
+
+.btn {
+  background-color: #1e272e;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 400;
+  display: inline-block;
+  transition: transform 0.7s ease;
+}
+
+.btn:hover {
+    color: #1e272e;
+    background: #ecf0f1;
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 660px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .logo {
+    position: absolute;
+    left: 30px;
+    font-size: 23px;
+  }
+
+  .links {
+    display: none;
+  }
+}
