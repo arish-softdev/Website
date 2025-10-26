@@ -34,16 +34,24 @@ footer > * {
     padding-top: 50px;
 }
 .socials a {
-    background: #ecf1f8;
+    background: #011c39;
+    border-radius: 30px;
     width: 40px;
     height: 40px;
     display: inline-block;
     margin-right: 10px;
 }
 .socials a i {
-    color: #e7f2f4;
-    padding: 10px 12px;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #ecf1f8;
+    padding: 6px 5px;
+    font-size: 30px;
+}
+
+.socials a i:hover {
+    color: #011c39;
+    background: #ecf1f8;
 }
 @media (max-width:600px) {
     .footer {
